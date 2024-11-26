@@ -11,12 +11,13 @@ form.addEventListener('submit', (event) => {
     const email = form.Email.value;
     const hora = form.Hora.value;
     const fecha = form.Fecha.value;
+    const servicio = form.Servicio.value;
 
-    if(!username || !email || !hora || !fecha){
+    if(!username || !email || !hora || !fecha || !servicio){
         alert("No llenaste todos los campos");
         return;
     }else{
-        alert("Tus datos son: " + username+email+fecha+hora)
+        alert("Tus datos son: " + username+ " " + email + " " + fecha + " "+ hora + " " + servicio);
     }
 
     // Enviamos el formulario
