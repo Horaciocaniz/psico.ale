@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "reservas-psicologa",
+  "private_key_id": "4608af58eb59260cb69c55645fa359c888ba836b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC9pn54sUbUWtHD\n0JtNDFzoYue4ZwGWsPU7Oj5OwvTG+/TWhwxlNrTGvrb9ZGCug2B0FhfHDipTLBGH\nHm79VBPMPaUUosE7pNkrlB1hv3sb3ePHi4i+/hWG53w1vVZzVSrnqk/uex4WKzwH\n334vn7klxQtRGFdNQu97ymMVF79gwftvQK/fvSSn+EPXY/YFBcbqMy1cbI9PCprI\nctXqmeKkqQCRL6hFgRM+sQMpVDsTuHE1Wu8NgmNej3i2Ou2jwVQ+OFNSpUh3NAWg\nMaTVO3Rd7W+uezll6DkO/8mCfH/LPl2DKX06INu0j5ccxdAehb/+K/azH8jE8tVh\nXwqLTuutAgMBAAECggEAOiNAkQozXuTqeh9IhIGeN6UeSPLW01WzD7GGqUltlVRm\n1Z73x01SdLzBRwOO+eCPYHbnWh+3DOEtDGFhf+pW2V0qbp2IJBsgchIJQc5b1Iqc\nia72QCqO+dibxLOivV9l9DfLIh3+9qfRUs6KFdpefTwfAIC4Ppie5rF/11b81ZGK\nwrcxFgZo905vXUXVSnR4RHxz41r45wzlkRdENFK9B0ApNUCJuVYu6pEPB5CGZgrh\n0OmXFDX7b6Z3G2VfAOa5LjdP62QOxoZ0X0DhbL5d3wPGbeomRNfT7VwGW0ELTyqY\nWuA8A5GeNB1m9ds5riUFCvL+65nAAWCTZcYVXUBf5wKBgQDe4Nl6GRNblTYy08wr\nZDI2dApmKetH2wdtCBal+td3c/upOvmTMRLSG31P7wDjfycR4EXTws2ry4PETsZR\n7sDuN0xvA0Cq0NPqRYqca0d+HxXmmBYkYyDiLQuNXyEu46KC7ZoU/lKFm2QHR04q\nHMrtEi3vcFiA3axKCE1v1UNBAwKBgQDZ1YZwDOSHGnmN0pb5pnFF/vINJhiCH/+T\n19vujFAFFf4DcTpvJO7l3GZCr5e2LBigtaUlaWoISF7YXwOUHZGVb4lCDY27tUFr\nEUqmDDxX4prJf2JlwLb7LHJF5StB6sOFPiWGrXWqTzprIFHkdwoi38JYS2cgNZuq\ngT7gSVGJjwKBgQCqnITeKoPe/4HVtrv8G180v++V9VDeWJR+qkpsFHEMSATFrxeN\nzWsS22g54ENV4ugNjxjk2aKHd+sOQx8daR7XPA2OjXbbS7BtDX7l7llz+mfRdWq9\nwARUHxdQyRmlwyuL/kaM+4JANIuF5te29QOCJwBy4hVd0FMq+OAOU7p/8QKBgDMb\ndb80RymrfHlZvzIzasARYJjVJ0rgVwZIzsDZCq0my8Hi/uK0t5gWbaeXqvCCyARs\nmaJ9aPMoh5gcMqq9hTqaQInOxEIV9JM6K1lp5X55G/fKezuES2oCs4zSh6OfgN/y\nBLvkVobur7YSjyQbCbXE6cPtbPSRn0QRrr7QdODhAoGBANj09Oz2m1hmAnJGVVbl\ncRhh+/xHdct5kWBG5Zo0I0IjsZRMtdtaoBpKbmJqkL+00GLr+xBqUeOWa9MHoVqy\nDadX+o7+n4CJVL4BzfwmAh1AErI/+mdr/kbs1y/zZ4wJEeJDVVKBtN/yESoeHoN9\np/wLqn7ZQFbGYd6aP3tXiAOI\n-----END PRIVATE KEY-----\n",
+  "client_email": "cuenta-servicio-citas@reservas-psicologa.iam.gserviceaccount.com",
+  "client_id": "112894952950264043063",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cuenta-servicio-citas%40reservas-psicologa.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
