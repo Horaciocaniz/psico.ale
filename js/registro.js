@@ -17,7 +17,7 @@ form.addEventListener('submit', (event) => {
         alert("No llenaste todos los campos");
         return;
     }else{
-        alert("Tus datos son: " + username+ " " + email + " " + fecha + " "+ hora + " " + servicio);
+        alert(nombre+" Consultando fecha: " + fecha+ ", "  +" En horario de: "+ hora + ", "+ " El servicio de: "+servicio);
     }
 
     // Enviamos el formulario
