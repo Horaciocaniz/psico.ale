@@ -17,7 +17,7 @@ form.addEventListener('submit', (event) => {
         alert("No llenaste todos los campos");
         return;
     }else{
-        alert(" Consultando fecha: " + fecha+ ", "  +" En horario de: "+ hora);
+        alert(nombre+" Consulta disponibilidad para la fecha: " + fecha+ ", "  +" En horario de: "+ hora);
     }
 
     // Enviamos el formulario
