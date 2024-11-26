@@ -58,7 +58,7 @@
                     <a class="text-primary px-2" href="https://www.instagram.com/psico.alebonilla/">
                         <i class="fab fa-instagram"></i>
                     
-                        
+
 
 
                 </div>
@@ -237,12 +237,12 @@
                         <div class="form-row">
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control bg-transparent p-4" placeholder="Tu nombre" required="required" />
+                                    <input type="text" class="form-control bg-transparent p-4" placeholder="Tu nombre" required="required" id="Nombre"/>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <input type="email" class="form-control bg-transparent p-4" placeholder="Tu Email" required="required" />
+                                    <input type="email" class="form-control bg-transparent p-4" placeholder="Tu Email" required="required" id="Email" />
                                 </div>
                             </div>
                         </div>
@@ -250,14 +250,14 @@
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <div class="date" id="date" data-target-input="nearest">
-                                        <input type="text" class="form-control bg-transparent p-4 datetimepicker-input" placeholder="Fecha" data-target="#date" data-toggle="datetimepicker"/>
+                                        <input type="text" class="form-control bg-transparent p-4 datetimepicker-input" placeholder="Fecha" data-target="#date" data-toggle="datetimepicker" id="Fecha"/>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <div class="time" id="time" data-target-input="nearest">
-                                        <input type="text" class="form-control bg-transparent p-4 datetimepicker-input" placeholder="Hora" data-target="#time" data-toggle="datetimepicker"/>
+                                        <input type="text" class="form-control bg-transparent p-4 datetimepicker-input" placeholder="Hora" data-target="#time" data-toggle="datetimepicker" id="Hora"/>
                                     </div>
                                 </div>
                             </div>
@@ -267,14 +267,14 @@
                                 <div class="form-group">
                                     <select class="custom-select bg-transparent px-4" style="height: 47px;">
                                         <option selected>Elige un Servicio</option>
-                                        <option value="1">Service 1</option>
-                                        <option value="2">Service 2</option>
-                                        <option value="3">Service 3</option>
+                                        <option value="1" id="Servicio 1">Service 1</option>
+                                        <option value="2" id="Servicio 2">Service 2</option>
+                                        <option value="3" id="Servicio 3">Service 3</option>
                                     </select>
                                 </div>
                             </div>
                             <div class="col-sm-6">
-                                <button class="btn btn-primary btn-block" type="submit" style="height: 47px;">Haz tu cita</button>
+                                <button class="btn btn-primary btn-block" type="submit" style="height: 47px;" id="botonReserva">Pregunta disponibilidad</button>
                             </div>
                         </div>
                     </form>
@@ -282,6 +282,7 @@
             </div>
         </div>
     </div>
+
     <!-- Service End -->
 
 
@@ -444,6 +445,10 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <!-- Script formulario -->
+
+    <script type="text/javascript" src="/js/registro.js"></script>
 </body>
 
 </html>
