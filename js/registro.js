@@ -12,12 +12,32 @@ form.addEventListener('submit', (event) => {
     const hora = form.Hora.value;
     const fecha = form.Fecha.value;
     const servicio = form.Servicio.value;
+    const mensaje = username+" Consulta disponibilidad para la fecha: " + fecha+ ", "  +" En horario de: "+ hora;
+
+
+     // Objeto que contiene los datos del mensaje
+     const mensajeWhatsApp = {
+        numero: "50247266960", // Número de teléfono con código de país
+        texto: "Hola, este es un mensaje automatizado desde mi página web."
+      };
+
+       // Función para generar el enlace de WhatsApp
+    function generarEnlaceWhatsApp(mensaje) {
+        const baseUrl = "https://wa.me/";
+        const numero = mensaje.numero;
+        const texto = encodeURIComponent(mensaje.texto);
+        return `${baseUrl}${numero}?text=${texto}`;
+      }
+  
+
 
     if(!username || !email || !hora || !fecha || !servicio){
         alert("No llenaste todos los campos");
         return;
     }else{
         alert(username+" Consulta disponibilidad para la fecha: " + fecha+ ", "  +" En horario de: "+ hora);
+        const enlace = generarEnlaceWhatsApp(mensajeWhatsApp);
+        window.open(enlace, "_blank"); // Abre el enlace en una nueva pestaña
     }
 
     // Enviamos el formulario
@@ -25,3 +45,4 @@ form.addEventListener('submit', (event) => {
     
 
 });
+
