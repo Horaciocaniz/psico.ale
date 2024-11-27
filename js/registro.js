@@ -35,7 +35,7 @@ form.addEventListener('submit', (event) => {
         alert("No llenaste todos los campos");
         return;
     }else{
-        alert(username+" Consulta disponibilidad para la fecha: " + fecha+ ", "  +" En horario de: "+ hora);
+        //alert(username+" Consulta disponibilidad para la fecha: " + fecha+ ", "  +" En horario de: "+ hora);
         const enlace = generarEnlaceWhatsApp(mensajeWhatsApp);
         window.open(enlace, "_blank"); // Abre el enlace en una nueva pestaña
     }
