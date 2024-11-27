@@ -18,7 +18,7 @@ form.addEventListener('submit', (event) => {
      // Objeto que contiene los datos del mensaje
      const mensajeWhatsApp = {
         numero: "50247266960", // Número de teléfono con código de país
-        texto: "Hola, este es un mensaje automatizado desde mi página web."
+        texto: username+" Consulta disponibilidad para la fecha: " + fecha+ ", "  +" En horario de: "+ hora
       };
 
        // Función para generar el enlace de WhatsApp
