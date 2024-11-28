@@ -110,3 +110,22 @@
     
 })(jQuery);
 
+document.querySelector('#linkInicio').addEventListener('click', function (event) {
+    event.preventDefault(); // Evita el comportamiento predeterminado
+    const target = document.querySelector('#inicio');
+    target.scrollIntoView({ behavior: 'smooth' });
+  });
+
+  document.querySelector('#linkAbout').addEventListener('click', function (event) {
+    event.preventDefault(); // Evita el comportamiento predeterminado
+    const target = document.querySelector('#about');
+    target.scrollIntoView({ behavior: 'smooth' });
+  });
+
+  document.querySelector('#linkServices').addEventListener('click', function (event) {
+    event.preventDefault(); // Evita el comportamiento predeterminado
+    const target = document.querySelector('#services');
+    target.scrollIntoView({ behavior: 'smooth' });
+  });
+  
+
