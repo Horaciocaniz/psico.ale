@@ -127,5 +127,11 @@ document.querySelector('#linkInicio').addEventListener('click', function (event)
     const target = document.querySelector('#services');
     target.scrollIntoView({ behavior: 'smooth' });
   });
+
+  document.querySelector('#linkReserva').addEventListener('click', function (event) {
+    event.preventDefault(); // Evita el comportamiento predeterminado
+    const target = document.querySelector('#reserva');
+    target.scrollIntoView({ behavior: 'smooth' });
+  });
   
 
