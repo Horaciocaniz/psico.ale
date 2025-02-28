@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (servicioSeleccionado) {
         const selectElement = document.getElementById("servicio-select");
         selectElement.value = servicioSeleccionado;
+        alert(servicioSeleccionado);
     }
 });
 
