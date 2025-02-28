@@ -1,3 +1,18 @@
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    const servicioSeleccionado = urlParams.get("servicio");
+
+    if (servicioSeleccionado) {
+        const selectElement = document.getElementById("servicio-select");
+        selectElement.value = servicioSeleccionado;
+    }
+});
+
+
+
+
 const form = document.querySelector('form');
 
 
@@ -13,6 +28,7 @@ form.addEventListener('submit', (event) => {
     const fecha = form.Fecha.value;
     const servicio = form.Servicio.value;
     const mensaje = username+" Consulta disponibilidad para la fecha: " + fecha+ ", "  +" En horario de: "+ hora;
+
 
 
      // Objeto que contiene los datos del mensaje
